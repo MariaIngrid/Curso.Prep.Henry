@@ -67,7 +67,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:  
-  if (str1.length == str2.length){ 
+  if (str1.length === str2.length){ 
     return true;
   }
    return false;
@@ -104,7 +104,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 == 0){
+  if (num % 2 === 0){
     return true;
   }
    return false; 
@@ -115,7 +115,7 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-    if (num % 2 == 0){
+    if (num % 2 === 0){
        return false;
   }
        return true; 
@@ -237,15 +237,15 @@ function esVocal(letra){
   //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   //Escribe tu código aquí
-  if( letra == "a"){   
+  if( letra === "a"){   
     return "Es vocal";
-  } else if (letra == "e"){
+  } else if (letra === "e"){
     return "Es vocal";
-  } else if (letra == "i"){
+  } else if (letra === "i"){
     return "Es vocal";
-  } else if (letra == "o"){
+  } else if (letra === "o"){
     return "Es vocal";
-  } else if (letra == "u"){
+  } else if (letra === "u"){
     return "Es vocal";
   } else if( letra.length > 1){
     return "Dato incorrecto";
