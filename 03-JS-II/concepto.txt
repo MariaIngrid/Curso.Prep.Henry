@@ -1,0 +1,5 @@
+for : hace parte del grupo de Bucles, los bucles son una estructura de control que repite una instruccion o instrucciones, en este caso el bucle for nos permite dar parametros especificos a esta instruccion tales como controlar el numero de repeticiones (condicion). 
+Operadores Logicos: &&, ||, ! , se utilizan para determinar la logica entre variables o valores.
+&& : "y" retorna true si ambos valores o variables son verdaderas y false en cualquier otro caso.
+|| : " o " retorna true si cualquier de los valores dados es verdadero y false si los todos los valores dados son falsos.  
+! : " no " acepta un solo valor y convierte al operando al tipo booleano ( true /false) y le da el valor contrario.
